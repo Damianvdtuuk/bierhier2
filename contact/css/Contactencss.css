@@ -1,0 +1,82 @@
+ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+ }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.line {
+    margin-left:40px;
+    width: 700px;
+    height: 470px;
+    border: 1px solid black;
+    position: relative;
+    padding: 25px;
+    float: left;
+
+}
+
+.Contact {
+    padding-left: 40px;
+}
+.leftp {
+    float: left;
+    width: 800px;
+    margin-left: 40px;
+    border: 0px solid #73AD21;
+    padding: 10px;
+
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    min-height: 8%;
+    width: 98%;
+    clear: both;
+    padding: 15px;
+    background-color:grey;
+    float: left;
+}
+.footer p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right:30px;
+}
+
+.form {
+    float: left;
+    padding: 10px;
+    margin-left: 40px;
+
+}
+*@font-face {
+    font-family: "Arial";
+    src: url(https://www.fonts.com/font/monotype/arial?QueryFontType=Web&src=GoogleWebFonts) format("truetype");
+}
+
+body {
+    font-family: "Arial";
+}
