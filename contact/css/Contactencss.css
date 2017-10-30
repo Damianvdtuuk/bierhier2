@@ -50,16 +50,18 @@ li a:hover:not(.active) {
 }
 
 .footer {
+    color: white;
     position:absolute;
     bottom:0;
     min-height: 8%;
     width: 98%;
     clear: both;
     padding: 15px;
-    background-color:grey;
+    background-color: #333333;
     float: left;
 }
 .footer p {
+    color: white;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -78,5 +80,6 @@ li a:hover:not(.active) {
 }
 
 body {
-    font-family: "Arial";
+    font-family: Arial, SansSerif, serif;
+    font-size: medium;
 }
