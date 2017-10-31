@@ -1,6 +1,5 @@
 body {
     background-image: url("../img/Achtergrond Contact.jpg");
-    color: white;
 }
 
 
@@ -63,7 +62,7 @@ li a:hover:not(.active) {
     width: 98%;
     clear: both;
     padding: 15px;
-    background-color: #333333;
+    background-color: darkgrey;
     float: left;
 }
 .footer p {
