@@ -1,3 +1,9 @@
+body {
+    background-image: url("../img/Achtergrond Contact.jpg");
+    color: white;
+}
+
+
 ul {
      list-style-type: none;
      margin: 0;
