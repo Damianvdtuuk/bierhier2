@@ -42,3 +42,9 @@ nav a{
 .clear::after{
     clear: both;
 }
+main{
+    height: 1000px;
+}
+main:after {
+    clear: both;
+}
